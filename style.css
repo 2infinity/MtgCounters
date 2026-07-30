@@ -48,6 +48,8 @@ button{
 }
 .lifeContainer{
     justify-self: center;
+    text-align: center;
+    justify-content: center;
 }
 .forestMana{
     color: green;
