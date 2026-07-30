@@ -11,4 +11,4 @@
 *
 
 ~~~Responsive Design~~~
-*Bug on mobile the btns for the players life is to the left. 
+*On Mobile we should redesign the look like the other mobile life counters 

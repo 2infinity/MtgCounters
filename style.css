@@ -67,3 +67,8 @@ button{
     width: 500px;
     height: 250px;
 }
+.counters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
