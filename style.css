@@ -11,12 +11,13 @@ h2{
     font-weight: bolder;
 }  
 button{
-    width: 50px;
-    height: 25px;
+    width: 80px;
+    height: 40px;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 16px;
     cursor: pointer;
     margin: 0px 4px 0px 4px;
+    border-radius: 20px;
 } 
 .manaSymbols{
     width: 75px;

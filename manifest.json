@@ -1,0 +1,15 @@
+{
+  "name": "MTG Counters",
+  "short_name": "MTG Counters",
+  "icons": [
+    {
+      "src": "Assets/Magic_Icons/Magic-The-Gathering-Logo-1993.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
