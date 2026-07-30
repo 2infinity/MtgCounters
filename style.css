@@ -50,6 +50,7 @@ button{
     justify-self: center;
     text-align: center;
     justify-content: center;
+    justify-items: center;
 }
 .forestMana{
     color: green;
@@ -68,4 +69,6 @@ button{
 }
 .player{
     opacity: 0.5;
+    justify-content: center;
+    justify-items: center;
 }
