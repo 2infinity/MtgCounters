@@ -11,4 +11,4 @@
 *
 
 ~~~Responsive Design~~~
-*Put Everything into rows and possible smaller sizes.
+*Bug on mobile the btns for the players life is to the left. 
