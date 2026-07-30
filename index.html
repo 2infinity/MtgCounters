@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MTG Games</title>
+</head>
+<body>
+    <h1>MTG Counters</h1>
+    <div id="container">
+        <div class="player" id="player1">
+            <h2 id="player1Name">Player One</h2>
+            <div class="lifeContainer">
+                <h2 id="p1L">40</h2>
+                <div class="btnContainer">
+                    <button id="p1LBtnM">-</button>
+                    <button id="p1LBtnR">Reset</button>
+                    <button id="p1LBtnP">+</button>
+                </div>
+            </div>
+            <div class="manaContainer">
+                <div class="plainsContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/plains.png" alt="Plains Mana Symbol">
+                    <h2 id="p1P" class="plainsMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1pmBtn">-</button>
+                        <button id="p1prBtn">Reset</button>
+                        <button id="p1ppBtn">+</button>
+                    </div>
+                </div>
+                <div class="swampContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/swamp.webp" alt="Swamp Mana Symbol">
+                    <h2 id="p1S" class="swampMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1smBtn">-</button>
+                        <button id="p1srBtn">Reset</button>
+                        <button id="p1spBtn">+</button>
+                    </div>
+                </div>
+                <div class="forestContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/forest.png" alt="Forest Mana Symbol">
+                    <h2 id="p1F" class="forestMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1fmBtn">-</button>
+                        <button id="p1frBtn">Reset</button>
+                        <button id="p1fpBtn">+</button>
+                    </div>
+                </div>
+                <div class="mountainContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/mountain.png" alt="Mountain Mana Symbol">
+                    <h2 id="p1M" class="mountainMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1mmBtn">-</button>
+                        <button id="p1mrBtn">Reset</button>
+                        <button id="p1mpBtn">+</button>
+                    </div>
+                </div>
+                <div class="islandContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/island.png" alt="Islands Mana Symbol">
+                    <h2 id="p1I" class="islandMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1imBtn">-</button>
+                        <button id="p1irBtn">Reset</button>
+                        <button id="p1ipBtn">+</button>
+                    </div>
+                </div>
+                <div class="colorlessContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/colorless.png" alt="Colorless Mana Symbol">
+                    <h2 id="p1C" class="colorlessMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p1cmBtn" >-</button>
+                        <button id="p1crBtn">Reset</button>
+                        <button id="p1cpBtn">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="player" id="player2">
+            <h2 id="player2Name">Player Two</h2>
+            <div class="lifeContainer">
+                <h2 id="p2L">40</h2>
+                <div class="btnContainer">
+                    <button id="p2LBtnM">-</button>
+                    <button id="p2LBtnR">Reset</button>
+                    <button id="p2LBtnP">+</button>
+                </div>
+            </div>
+            <div class="manaContainer">
+                <div class="plainsContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/plains.png" alt="Plains Mana Symbol">
+                    <h2 id="p2P" class="plainsMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2pm">-</button>
+                        <button id="p2pr">Reset</button>
+                        <button id="p2pp">+</button>
+                    </div>
+                </div>
+                <div class="swampContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/swamp.webp" alt="Swamp Mana Symbol">
+                    <h2 id="p2S" class="swampMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2smBtn">-</button>
+                        <button id="p2srBtn">Reset</button>
+                        <button id="p2spBtn">+</button>
+                    </div>
+                </div>
+                <div class="forestContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/forest.png" alt="Forest Mana Symbol">
+                    <h2 id="p2F" class="forestMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2fmBtn">-</button>
+                        <button id="p2frBtn">Reset</button>
+                        <button id="p2fpBtn">+</button>
+                    </div>
+                </div>
+                <div class="mountainContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/mountain.png" alt="Mountain Mana Symbol">
+                    <h2 id="p2M" class="mountainMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2mmBtn">-</button>
+                        <button id="p2mrBtn">Reset</button>
+                        <button id="p2mpBtn">+</button>
+                    </div>
+                </div>
+                <div class="islandContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/island.png" alt="Islands Mana Symbol">
+                    <h2 id="p2I" class="islandMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2imBtn">-</button>
+                        <button id="p2irBtn">Reset</button>
+                        <button id="p2ipBtn">+</button>
+                    </div>
+                </div>
+                <div class="colorlessContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/colorless.png" alt="Colorless Mana Symbol">
+                    <h2 id="p2C" class="colorlessMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p2cmBtn">-</button>
+                        <button id="p2crBtn">Reset</button>
+                        <button id="p2cpBtn">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="player" id="player3">
+            <h2 id="player3Name">Player Three</h2>
+            <div class="lifeContainer">
+                <h2 id="p3L">40</h2>
+                <div class="btnContainer">
+                    <button id="p3lmBtn">-</button>
+                    <button id="p3lrBtn">Reset</button>
+                    <button id="p3lpBtn">+</button>
+                </div>
+            </div>
+            <div class="manaContainer">
+                <div class="plainsContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/plains.png" alt="Plains Mana Symbol">
+                    <h2 id="p3P" class="plainsMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3pmBtn">-</button>
+                        <button id="p3prBtn">Reset</button>
+                        <button id="p3ppBtn">+</button>
+                    </div>
+                </div>
+                <div class="swampContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/swamp.webp" alt="Swamp Mana Symbol">
+                    <h2 id="p3S" class="swampMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3smBtn">-</button>
+                        <button id="p3srBtn">Reset</button>
+                        <button id="p3spBtn">+</button>
+                    </div>
+                </div>
+                <div class="forestContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/forest.png" alt="Forest Mana Symbol">
+                    <h2 id="p3F" class="forestMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3fmBtn">-</button>
+                        <button id="p3frBtn">Reset</button>
+                        <button id="p3fpBtn">+</button>
+                    </div>
+                </div>
+                <div class="mountainContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/mountain.png" alt="Mountain Mana Symbol">
+                    <h2 id="p3M" class="mountainMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3mmBtn">-</button>
+                        <button id="p3mrBtn">Reset</button>
+                        <button id="p3mpBtn">+</button>
+                    </div>
+                </div>
+                <div class="islandContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/island.png" alt="Islands Mana Symbol">
+                    <h2 id="p3I" class="islandMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3imBtn">-</button>
+                        <button id="p3irBtn">Reset</button>
+                        <button id="p3ipBtn">+</button>
+                    </div>
+                </div>
+                <div class="colorlessContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/colorless.png" alt="Colorless Mana Symbol">
+                    <h2 id="p3C" class="colorlessMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p3cmBtn">-</button>
+                        <button id="p3crBtn">Reset</button>
+                        <button id="p3cpBtn">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="player" id="player4">
+            <h2 id="player4Name">Player Four</h2>
+            <div class="lifeContainer">
+                <h2 id="p4L">40</h2>
+                <div class="btnContainer">
+                    <button id="p4lmBtn">-</button>
+                    <button id="p4lrBtn">Reset</button>
+                    <button id="p4lpBtn">+</button>
+                </div>
+            </div>
+            <div class="manaContainer">
+                <div class="plainsContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/plains.png" alt="Plains Mana Symbol">
+                    <h2 id="p4P" class="plainsMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4pmBtn">-</button>
+                        <button id="p4prBtn">Reset</button>
+                        <button id="p4ppBtn">+</button>
+                    </div>
+                </div>
+                <div class="swampContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/swamp.webp" alt="Swamp Mana Symbol">
+                    <h2 id="p4S" class="swampMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4smBtn">-</button>
+                        <button id="p4srBtn">Reset</button>
+                        <button id="p4spBtn">+</button>
+                    </div>
+                </div>
+                <div class="forestContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/forest.png" alt="Forest Mana Symbol">
+                    <h2 id="p4F" class="forestMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4fmBtn">-</button>
+                        <button id="p4frBtn">Reset</button>
+                        <button id="p4fpBtn">+</button>
+                    </div>
+                </div>
+                <div class="mountainContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/mountain.png" alt="Mountain Mana Symbol">
+                    <h2 id="p4M" class="mountainMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4mmBtn">-</button>
+                        <button id="p4mrBtn">Reset</button>
+                        <button id="p4mpBtn">+</button>
+                    </div>
+                </div>
+                <div class="islandContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/island.png" alt="Islands Mana Symbol">
+                    <h2 id="p4I" class="islandMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4imBtn">-</button>
+                        <button id="p4irBtn">Reset</button>
+                        <button id="p4ipBtn">+</button>
+                    </div>
+                </div>
+                <div class="colorlessContainer mana">
+                    <img class="manaSymbols" src="Assets/Mana_Symbols/colorless.png" alt="Colorless Mana Symbol">
+                    <h2 id="p4C" class="colorlessMana">0</h2>
+                    <div class="btnContainer">
+                        <button id="p4cmBtn">-</button>
+                        <button id="p4crBtn">Reset</button>
+                        <button id="p4cpBtn">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>    
+</body>
+</html>

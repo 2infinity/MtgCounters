@@ -1,0 +1,14 @@
+~~~Counter Trackers~~~
+*Experience Counters
+*Poison Counters
+*Commander Damage
+*
+* 
+
+~~~Features~~~
+*Highlighted borders.
+*When Life total put a skull over the total but have it faded over the number.
+*
+
+~~~Responsive Design~~~
+*Put Everything into rows and possible smaller sizes.
